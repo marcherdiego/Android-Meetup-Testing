@@ -1,4 +1,4 @@
-package com.mercadolibre.android.androidmeetup_testing.mvp.model;
+package com.mercadolibre.android.androidmeetup.testing.ui.mvp.model;
 
 import com.nerdscorner.mvplib.events.model.BaseModel;
 

@@ -1,4 +1,4 @@
-package com.mercadolibre.android.androidmeetup_testing;
+package com.mercadolibre.android.androidmeetup;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

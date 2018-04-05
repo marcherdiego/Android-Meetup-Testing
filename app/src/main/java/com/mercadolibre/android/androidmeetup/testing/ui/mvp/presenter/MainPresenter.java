@@ -1,9 +1,9 @@
-package com.mercadolibre.android.androidmeetup_testing.mvp.presenter;
+package com.mercadolibre.android.androidmeetup.testing.ui.mvp.presenter;
 
 import android.support.annotation.NonNull;
 
-import com.mercadolibre.android.androidmeetup_testing.mvp.model.MainModel;
-import com.mercadolibre.android.androidmeetup_testing.mvp.view.MainView;
+import com.mercadolibre.android.androidmeetup.testing.ui.mvp.model.MainModel;
+import com.mercadolibre.android.androidmeetup.testing.ui.mvp.view.MainView;
 import com.nerdscorner.mvplib.events.presenter.BaseActivityPresenter;
 
 public class MainPresenter extends BaseActivityPresenter<MainView, MainModel> {

@@ -1,4 +1,4 @@
-package com.mercadolibre.android.androidmeetup_testing.mvp.view;
+package com.mercadolibre.android.androidmeetup.testing.ui.mvp.view;
 
 import android.support.annotation.NonNull;
 

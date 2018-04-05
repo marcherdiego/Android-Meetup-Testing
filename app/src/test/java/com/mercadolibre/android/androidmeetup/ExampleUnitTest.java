@@ -1,4 +1,4 @@
-package com.mercadolibre.android.androidmeetup_testing;
+package com.mercadolibre.android.androidmeetup;
 
 import org.junit.Test;
 
