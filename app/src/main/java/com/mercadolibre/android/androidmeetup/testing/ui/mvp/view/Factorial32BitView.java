@@ -2,6 +2,7 @@ package com.mercadolibre.android.androidmeetup.testing.ui.mvp.view;
 
 import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
+import android.support.annotation.VisibleForTesting;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -11,6 +12,8 @@ import android.widget.TextView;
 import com.mercadolibre.android.androidmeetup.testing.R;
 import com.nerdscorner.mvplib.events.activity.BaseActivity;
 import com.nerdscorner.mvplib.events.view.BaseActivityView;
+
+import static android.support.annotation.VisibleForTesting.PACKAGE_PRIVATE;
 
 public class Factorial32BitView extends BaseActivityView {
     private EditText numberInput;
@@ -40,7 +43,8 @@ public class Factorial32BitView extends BaseActivityView {
     public static class FactorialButtonClickEvent {
         public String input;
 
-        FactorialButtonClickEvent(String input) {
+        @VisibleForTesting(otherwise = PACKAGE_PRIVATE)
+        public FactorialButtonClickEvent(String input) {
             this.input = input;
         }
     }

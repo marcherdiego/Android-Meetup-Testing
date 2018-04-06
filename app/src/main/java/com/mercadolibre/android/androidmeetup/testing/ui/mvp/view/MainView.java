@@ -21,8 +21,20 @@ public class MainView extends BaseActivityView {
                     bus.post(new Factorial32BitsButtonClickEvent());
                 }
             });
+
+        activity
+            .findViewById(R.id.user_listing)
+            .setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    bus.post(new UserListingClickEvent());
+                }
+            });
     }
 
     public static class Factorial32BitsButtonClickEvent {
+    }
+
+    public static class UserListingClickEvent {
     }
 }
